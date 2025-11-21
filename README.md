@@ -1,134 +1,78 @@
-# 🏥 Secure Electronic Health Record (EHR) System – Risk \& Security Analysis
-
-# 
-
-# This project provides a concise, professional assessment of the security posture of an Electronic Health Record (EHR) system in a university hospital environment. It applies industry-recognized cybersecurity frameworks to identify risks, evaluate business impact, and recommend practical security controls.
-
-# 
-
-# 📌 Overview
-
-# 
-
-# Healthcare systems store highly sensitive patient information and must remain available 24/7. This project examines the EHR system from a cybersecurity perspective, focusing on:
-
-# 
-
-# Risk identification using the OCTAVE Allegro framework
-
-# 
-
-# Business Impact Analysis (BIA) to prioritize critical assets
-
-# 
-
-# Attack profiling to understand threat actors and damage scenarios
-
-# 
-
-# Actionable mitigation strategies to improve system resilience
-
-# 
-
-# 🛡️ Key Components
-
-# 1\. OCTAVE Allegro Risk Assessment
-
-# 
-
-# Identifies the EHR as the primary critical information asset
-
-# 
-
-# Maps technical, physical, and personnel risk environments
-
-# 
-
-# Evaluates threats such as phishing, ransomware, insider misuse, and DDoS attacks
-
-# 
-
-# Provides high-level mitigation recommendations
-
-# 
-
-# 2\. Business Impact Analysis (BIA)
-
-# 
-
-# Scores essential components: EHR database server, network infrastructure, workstations, backup systems, and remote access
-
-# 
-
-# Sets RTOs and RPOs for recovery planning
-
-# 
-
-# Highlights assets with the highest operational impact
-
-# 
-
-# 3\. Attack Profiles \& Damage Assessment
-
-# 
-
-# Analyzes attacker motives and capabilities
-
-# 
-
-# Develops best-case, most-likely, and worst-case scenarios
-
-# 
-
-# Focuses on impacts to patient safety, availability, confidentiality, and compliance
-
-# 
-
-# Suggests administrative, technical, and physical controls
-
-# 
-
-# 🎯 Skills Demonstrated
-
-# 
-
-# Cybersecurity Risk Assessment
-
-# 
-
-# Business Continuity \& Disaster Recovery
-
-# 
-
-# Threat Modeling \& Attack Profiling
-
-# 
-
-# Healthcare Security (EHR, PHI, GDPR/HIPAA concepts)
-
-# 
-
-# Documentation \& Structured Analysis
-
-# 
-
-# 📁 Repository Contents
-
-# 📦 secure-ehr-system
-
-# &nbsp;├── Milestone 1 – OCTAVE Allegro Assessment
-
-# &nbsp;├── Milestone 2 – Business Impact Analysis (BIA)
-
-# &nbsp;├── Milestone 3 – Attack Profiles \& Damage Assessment
-
-# &nbsp;└── README.md
-
-# 
-
-# 📘 Summary
-
-# 
-
-# This project shows the end-to-end process of analyzing security risks in a healthcare environment, prioritizing business-critical assets, and designing practical, high-level security improvements to protect patient safety and hospital operations.
-
+# Secure EHR System – Risk & Security Assessment
+
+This repository contains a security and risk assessment of a university hospital's **Electronic Health Record (EHR) system**.  
+The project applies recognized risk management and cybersecurity practices to understand threats, evaluate business impact, and propose mitigation strategies.
+
+---
+
+## 1. Overview
+
+Healthcare environments depend on EHR systems to store and process sensitive patient data and support clinical workflows.  
+This project analyzes the EHR system from a cybersecurity and business continuity perspective, focusing on:
+
+- Identifying critical information assets.
+- Assessing security risks and their impact.
+- Evaluating business impact and recovery requirements.
+- Describing realistic attack vectors and damage scenarios.
+- Recommending technical, administrative, and physical controls.
+
+The work is structured as three main milestones.
+
+---
+
+## 2. Project Components
+
+### 2.1 OCTAVE Allegro Risk Assessment (Milestone 1)
+
+- Identifies the EHR system as the primary critical information asset.
+- Maps the technical, physical, and personnel environment around the EHR (servers, network, workstations, staff, vendors, etc.).
+- Describes key threat scenarios such as:
+  - Phishing and credential theft.
+  - Ransomware against the EHR infrastructure.
+  - Denial-of-service against public-facing portals.
+- Assesses likelihood and impact.
+- Outlines high-level mitigation actions.
+
+### 2.2 Business Impact Analysis (Milestone 2)
+
+- Defines critical business assets related to the EHR, including:
+  - EHR database server.
+  - Network infrastructure.
+  - Clinical workstations.
+  - Backup and recovery systems.
+  - Patient portal.
+  - Remote access/VPN.
+- Uses a weighted scoring model to prioritize assets based on:
+  - Safety and health impact.
+  - Reputation impact.
+  - Operational impact.
+- Defines Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO) for each asset to guide disaster recovery planning.
+
+### 2.3 Attack Profiles and Damage Assessment (Milestone 3)
+
+- Describes realistic attack vectors against the EHR environment, including:
+  - Phishing and credential theft.
+  - Credential stuffing.
+  - Remote access/VPN abuse.
+  - Insider threat.
+  - Ransomware via software vulnerabilities.
+- For each vector, outlines:
+  - Attacker motivation and capabilities.
+  - Best-case, most likely, and worst-case scenarios.
+  - Potential impact on:
+    - Patient safety and continuity of care.
+    - Confidentiality of health records.
+    - System availability and operations.
+    - Legal, regulatory, and financial exposure.
+  - Recommended countermeasures.
+
+---
+
+## 3. Repository Structure
+
+```text
+ehr-security-assessment/
+├── Milestone 1/        # OCTAVE Allegro risk assessment worksheets and documentation
+├── Milestone 2/        # Business Impact Analysis (BIA) tables and recovery planning
+├── Milestone 3/        # Attack profiles and potential damage assessment
+└── README.md           # Project overview (this file)
